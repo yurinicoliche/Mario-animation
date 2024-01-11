@@ -4,15 +4,38 @@
     box-sizing: border-box;
 }
 
+
+body {
+    background:linear-gradient(to right, #074C00, #42A341, #B8E2A3);
+    
+}
+
+.super-mario {
+
+    position: absolute;
+    top: 0px;
+    height: 45px;
+    height: 53px;
+    right: 50%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    mix-blend-mode: multiply;
+    
+}
+
 .game-board {
-    width: 100%;
+    max-width: 80%;
     height: 500px;
     margin: 0 auto ;
     border-bottom: 15px solid rgb(128, 211, 128);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(#87ceeb, #e0f6ff);
-     
+    background: linear-gradient(#5fd0fd, #dcf4ff);
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
 }
 
 .pipe {
@@ -58,7 +81,7 @@
 
 
     40% {
-        bottom: 180px;
+        bottom: 160px;
     }
 
     50% {
@@ -68,7 +91,7 @@
 
 
     70% {
-        bottom: 180px;
+        bottom: 175px;
     }
 
     100% {
